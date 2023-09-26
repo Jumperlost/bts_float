@@ -1,0 +1,37 @@
+.banner {
+  width: 100%;
+  position: relative;
+  .banner {
+    width: 100%;
+  }
+  .cont-banner-text {
+    position: absolute;
+    top: 94px;
+    left: 15%;
+
+    .banner__heading {
+      color: $main-color;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .banner-text {
+      display: block;
+      color: $main-color;
+      margin: 50px 0 50px 0;
+      line-height: 20px;
+      font-size: 0.9rem;
+      font-weight: 400;
+      .btn-link--spec {
+        display: block;
+        background-color: $accent-color;
+        margin: 0 0 35px 0px;
+      }
+    }
+  }
+}
+
+.card-btn {
+  display: block;
+  background-color: $accent-color;
+  color: $main-color;
+}

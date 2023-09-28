@@ -98,13 +98,14 @@
 .inner {
   margin-top: 100px;
   .inner__card {
-    display: block;
-    width: 83.5%;
-    margin-left: 14%;
+    width: 80%;
+    margin-left: 14.5%;
+    margin-right: 14%;
     &::after {
       @include clearfix("", table, both);
     }
     .inner__item {
+      width: 23%;
       float: left;
       padding: 2% 4%;
       background-color: $main-color;

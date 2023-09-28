@@ -266,9 +266,9 @@ a {
   margin-top: 100px;
 }
 .inner .inner__card {
-  display: block;
-  width: 83.5%;
-  margin-left: 14%;
+  width: 80%;
+  margin-left: 14.5%;
+  margin-right: 14%;
 }
 .inner .inner__card::after {
   content: "";
@@ -276,6 +276,7 @@ a {
   clear: both;
 }
 .inner .inner__card .inner__item {
+  width: 23%;
   float: left;
   padding: 2% 4%;
   background-color: #fff;
